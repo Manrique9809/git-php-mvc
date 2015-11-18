@@ -8,7 +8,7 @@
 //Start the Session
  
 session_start(); 
-
+echo "may 4";
 
 echo "<h1>comienzo</h1>";
 // Defines
