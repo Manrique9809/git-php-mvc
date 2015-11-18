@@ -7,6 +7,10 @@ function pip()
     // Set our defaults
     $controller = $config['default_controller'];
     $action = 'index';
+<<<<<<< HEAD
+=======
+     $actionn = 'indexx';
+>>>>>>> 1d9cb0d0426097eacede05557fb4768187ea415f
     $url = '';
 	
 	// Get request url and script url
@@ -37,6 +41,10 @@ function pip()
         $controller = $config['error_controller'];
         require_once(APP_DIR . 'controllers/' . $controller . '.php');
         $action = 'index';
+<<<<<<< HEAD
+=======
+         $actionn = 'indexx';
+>>>>>>> 1d9cb0d0426097eacede05557fb4768187ea415f
     }
 	
 	// Create object and call method

@@ -1,13 +1,16 @@
 <?php
 
+
 /*
  * PIP v0.5.3
  */
 
 //Start the Session
+ 
 session_start(); 
 
 
+echo "<h1>comienzo</h1>";
 // Defines
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('APP_DIR', ROOT_DIR .'application/');
@@ -18,11 +21,12 @@ require(ROOT_DIR .'system/model.php');
 require(ROOT_DIR .'system/view.php');
 require(ROOT_DIR .'system/controller.php');
 require(ROOT_DIR .'system/pip.php');
+ 
+ echo "<h1>final</h1>";
 
 // Define base URL
 global $config;
 define('BASE_URL', $config['base_url']);
-
+ 
 pip();
-
-?>
+ 

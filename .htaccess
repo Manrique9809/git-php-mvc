@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1d9cb0d0426097eacede05557fb4768187ea415f
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -5,5 +9,10 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . index.php [L]
 </IfModule>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1d9cb0d0426097eacede05557fb4768187ea415f
 # Prevent file browsing
 Options -Indexes
